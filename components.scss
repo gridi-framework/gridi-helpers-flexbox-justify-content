@@ -1,0 +1,5 @@
+@each $class, $value in $gridi-helpers-flexbox-justify-content-classes {
+    .#{$class} {
+        @include justify-content($value);
+    }
+}

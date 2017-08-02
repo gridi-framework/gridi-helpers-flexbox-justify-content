@@ -1,0 +1,29 @@
+{
+    "name": "gridi-helpers-flexbox-justify-content",
+    "description": "",
+    "main": "",
+    "authors": [
+        "Przemysław Dziadek <przemyslaw.dziadek@gmail.com>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "css",
+        "scss",
+        "gridi",
+        "helpers",
+        "flexbox",
+        "justify-content"
+    ],
+    "homepage": "https://github.com/gridi-framework/gridi-helpers-flexbox-justify-content",
+    "ignore": [
+        "**/.*",
+        "**/*.md",
+        "**/*.js",
+        "**/*.json",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "gridi-framework-css3-mixins": "*"
+    }
+}
