@@ -1,5 +1,13 @@
 @each $class, $value in $gridi-helpers-flexbox-justify-content-classes {
     .#{$class} {
-        @include justify-content($value);
+        @if is-map($value) {
+            $settings: map-get($value, settings);
+            @if not is-map($settings) {
+                $settings: ();
+            }
+            @include justify-content(map-get($value, value), $settings);
+        } @else {
+            @include justify-content($value);
+        }
     }
 }
